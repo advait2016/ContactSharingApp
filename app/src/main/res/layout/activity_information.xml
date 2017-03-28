@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_information"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zxing_status_text"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vision.contactsharingapp.InformationActivity">
+
+
+    <EditText
+        android:id="@+id/name"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/generate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="81dp"
+        android:background="?android:attr/colorPressedHighlight"
+        android:text="@string/generate" />
+
+    <EditText
+        android:id="@+id/PH1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="@string/phint"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/PH1"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="@string/title"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

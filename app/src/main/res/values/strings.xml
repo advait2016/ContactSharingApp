@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ConnectME</string>
+    <string name="Scan">Scan</string>
+    <string name="myinfo">My Information</string>
+    <string name="ShowQR">Show QR code</string>
+    <string name="phint">Phone Number</string>
+    <string name="Email">Enter Email</string>
+    <string name="website">Website</string>
+    <string name="name">Name</string>
+    <string name="generate">Generate QR</string>
+    <string name="title">Job title</string>
+    <string name="username"></string>
+    <string name="save"> Save</string>
+
+</resources>
